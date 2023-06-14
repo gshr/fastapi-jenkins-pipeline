@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Code') {
-            steps {
-                git 'https://github.com/gshr/hello-world-fastapi.git'
-            }
-        }
+        // stage('Clone Code') {
+        //     steps {
+        //         git 'https://github.com/gshr/hello-world-fastapi.git'
+        //     }
+        // }
         
         stage('Check') {
             steps {
