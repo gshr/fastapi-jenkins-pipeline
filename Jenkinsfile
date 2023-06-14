@@ -1,13 +1,6 @@
 pipeline {
     agent any
-
-    stages {
-        // stage('Clone Code') {
-        //     steps {
-        //         git 'https://github.com/gshr/hello-world-fastapi.git'
-        //     }
-        // }
-        
+    stages {  
         stage('Check') {
             steps {
                 sh 'ls -l'
