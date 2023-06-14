@@ -8,7 +8,8 @@ app = FastAPI()
 def hello():
     return {
         "message":"Hello World",
-        "time": datetime.datetime.now()
+        "status": "200",
+        "event": "Testing Webhook github event"
         }
 
 
